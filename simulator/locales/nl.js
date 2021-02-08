@@ -1,5 +1,5 @@
 if (typeof locales == 'undefined') locales = {};
-locales["en"] = {
+locales["nl"] = {
   "appName": {
     "message": "Ray Optics Simulatie"
   },
@@ -151,7 +151,7 @@ locales["en"] = {
     "message": "Alle beelden"
   },
   "mode_observer": {
-    "message": "Seen by Observer"
+    "message": "Beeld voor waarnemer"
   },
   "zoom": {
     "message": "Zoom"
@@ -160,10 +160,10 @@ locales["en"] = {
     "message": "Help"
   },
   "rayDensity": {
-    "message": "Ray Density"
+    "message": "Straaldichtheid"
   },
   "raydensity": {
-    "message": "Ray Density:"
+    "message": "Straaldichtheid:"
   },
   "undo": {
     "message": "Undo"
@@ -178,13 +178,13 @@ locales["en"] = {
     "message": "Save"
   },
   "save_name": {
-    "message": "Name:"
+    "message": "Naam:"
   },
   "save_cancel": {
     "message": "Cancel"
   },
   "save_description": {
-    "message": "The file will be saved in the default download folder."
+    "message": "Het bestand wordt in de standaard download map opgeslagen."
   },
   "open": {
     "message": "Open"
@@ -202,19 +202,19 @@ locales["en"] = {
     "message": "Snap to Grid"
   },
   "brightness": {
-    "message": "Brightness:"
+    "message": "Helderheid:"
   },
   "focallength": {
-    "message": "Focal length:"
+    "message": "Brandpuntafstand:"
   },
   "refractiveindex": {
-    "message": "Refractive index:"
+    "message": "Brekingsindex:"
   },
   "applytoall": {
-    "message": "Apply to All"
+    "message": "Overal toepassen"
   },
   "duplicate": {
-    "message": "Duplicate"
+    "message": "Dupliceer"
   },
   "delete": {
     "message": "Delete"
