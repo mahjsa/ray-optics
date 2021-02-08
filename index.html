@@ -243,46 +243,46 @@
         <h2 id="views">Views</h2>
         <div class="row thumbnail">
           <div class="caption">
-            <p class="mode-title" id="rays">Rays</p>
+            <p class="mode-title" id="rays">Stralen</p>
             <span id="rays_desc">
-              Show the rays. When the "Ray density" is high, they appears to be continuous.
+              Toont de lichtstralen. Als de "Straaldichtheid" groot is, lijkt op een lichtvlek.
             </span>
           </div>
-          <img src="img/low_density.png" alt="Low density" class="img-rounded">
-          <img src="img/high_density.png" alt="High density" style="margin-top:5px" class="img-rounded">
+          <img src="img/low_density.png" alt="Lage dichtheid" class="img-rounded">
+          <img src="img/high_density.png" alt="Hoge dichtheid" style="margin-top:5px" class="img-rounded">
         </div>
         <div class="row thumbnail">
           <div class="caption">
-            <p class="mode-title" id="extended_rays">Extended Rays</p>
+            <p class="mode-title" id="extended_rays">Uitgebreide stralen</p>
             <span id="extended_rays_desc">
-              Show both the rays and its extension.
-              Orange indicates backward extensions, and gray indicates forward ones.
+              Toont de echte en virtuele stralen.
+              Oranje voor stralen tegengesteld aan lichtrichting, grijs voor doortrekken in de lichtrichting.
             </span>
           </div>
           <img src="img/extended_rays.png" alt="Extended rays" class="img-rounded">
         </div>
         <div class="row thumbnail">
           <div class="caption">
-            <p class="mode-title" id="all_images">All Images</p>
+            <p class="mode-title" id="all_images">Alle beelden</p>
             <span id="all_images_desc">
-              Show the position of all images.
-              Yellow points indicate real images, orange indicate virtual images,
-              and gray (none in this picture) indicate virtual objects.
-              Note that some images cannot be detected if "Ray density" is not high enough.
+              Toont de plaats van alle beelden.
+              Gele punten voor de reeele beelden, oranje voor de virtuele beelden,
+              grijs (niet in deze figuur) geven virtuele objecten aan.
+              Let op dat sommige beelden niet zichtbaar zijn als de "Straaldichtheid" te laag is.
             </span>
           </div>
           <img src="img/all_images.png" alt="All images" class="img-rounded">
         </div>
         <div class="row thumbnail">
           <div class="caption">
-            <p class="mode-title" id="seen_by_observer">Seen by observer</p>
+            <p class="mode-title" id="seen_by_observer">Beeld voor waarnemer</p>
             <span id="seen_by_observer_desc">
-              Simulate the rays and images seen from some position.
-              The blue circle is the observer.
-              Any rays crossing it are considered to be "observed".
-              The observer do not know where the rays actually begin,
-              but may think they begin at some point(s) if they intersect there.
-              The rays are shown in blue, and the point(s) in orange.
+              Simuleert de stralen en beelden zoals die vanaf een bepaalde plaats zichtbaar zijn.
+              De blauwe cirkel is de waarnemer (het oog).
+              Elke straal die de cirkel kruist is "zichtbaar".
+              De waarnemer "weet" niet waar de eigenlijke straal begint,
+              maar gaat uit van een rechte lijn van het punt van inval naar de "bron".
+              De (zichtbare) stralen worden in het blauw getoond en de punt(en) in oranje.
             </span>
           </div>
           <img src="img/seen_by_observer.png" alt="Seen by obeserver" class="img-rounded">
@@ -297,10 +297,10 @@
       <span class="caret"></span></button>
       <ul class="dropdown-menu">
         <li><a href="#" onclick="setLang('en');event.preventDefault();">English</a></li>
+        <li><a href="#" onclick="setLang('nl');event.preventDefault();">Nederlands</a></li>
         <li><a href="#" onclick="setLang('zh-TW');event.preventDefault();">正體中文</a></li>
         <li><a href="#" onclick="setLang('zh-CN');event.preventDefault();">简体中文</a></li>
-        <li><a href="#" onclick="setLang('nl');event.preventDefault();">Nederlands</a></li>
-      </ul>
+        </ul>
     </div>
   </div>
 </div>
