@@ -297,7 +297,7 @@
       <span class="caret"></span></button>
       <ul class="dropdown-menu">
         <li><a href="#" onclick="setLang('en');event.preventDefault();">English</a></li>
-        <li><a href="#" onclick="setLang('nl');event.preventDefault();">Nederlands</a></li>
+        <li><a href="#" onclick="setLang('nl-NL');event.preventDefault();">Nederlands</a></li>
         <li><a href="#" onclick="setLang('zh-TW');event.preventDefault();">正體中文</a></li>
         <li><a href="#" onclick="setLang('zh-CN');event.preventDefault();">简体中文</a></li>
         </ul>
@@ -312,7 +312,7 @@
 <script src="locales/nl.js"></script>
 
 <script>
-var default_lang = 'nl';
+var default_lang = 'nl-NL';
 var browser_lang = '';
 function setLang(lang) {
   document.body.style.fontFamily = locales[lang].font.message;
