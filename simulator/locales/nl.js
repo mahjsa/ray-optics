@@ -217,10 +217,10 @@ locales["nl"] = {
     "message": "Dupliceer"
   },
   "delete": {
-    "message": "Delete"
+    "message": "Verwijder"
   },
   "processing": {
-    "message": "Processing...<br>Click here to stop."
+    "message": "Rekenen...<br>Klik hier om te stoppen."
   },
   "footer_message": {
     "message": "Developed by <a href='https://github.com/ricktu288' style='color:rgba(255,255,255,0.25)'>ricktu288</a>, <a href='https://github.com/j3soon' style='color:rgba(255,255,255,0.25)'>j3soon</a>"
@@ -229,93 +229,93 @@ locales["nl"] = {
     "message": "Home"
   },
   "source": {
-    "message": "Source"
+    "message": "Bronnen"
   },
   "undo_popover": {
-    "message": "Undo last action. (Ctrl+Z)"
+    "message": "Laatste actie ongedaan maken. (Ctrl+Z)"
   },
   "redo_popover": {
-    "message": "Redo last action. (Ctrl+Y)"
+    "message": "Laatste actie opnieuw. (Ctrl+Y)"
   },
   "reset_popover": {
-    "message": "Reset all changes."
+    "message": "Alle wijzigingen ongedaan maken."
   },
   "save_popover": {
-    "message": "Save the current file. (Ctrl+S)"
+    "message": "Huidig bestand opslaan. (Ctrl+S)"
   },
   "open_popover": {
-    "message": "Open an existing file. (Ctrl+O)"
+    "message": "Bestand openen. (Ctrl+O)"
   },
   "tool_laser_popover": {
-    "message": "A single ray of light defined by two points. (Drag or Click to create. First point is the source, shooting toward the second point.)"
+    "message": "Één straal door twee punten. (Sleep of klik om te maken. Eerste punt is de bron. Tweede punt geeft de richting.)"
   },
   "tool_parallel_popover": {
-    "message": "A parallel beam of rays emerges from a line-segment, with density controlled by the 'Ray density' slider. (Drag or click to create.)"
+    "message": "Een evenwijdige bundel uit een lijnstuk, het aantal stralen wordt ingesteld met 'Straaldichtheid'. (Sleep en klik om te maken.)"
   },
   "tool_radiant_popover": {
-    "message": "Rays emerge from a single point, with number controlled by the 'Ray density' slider. (Click to create.)"
+    "message": "Lichtstralen vanuit één punt, het aantal stralen wordt ingesteld met 'Straaldichtheid'. (Klik om te maken.)"
   },
   "tool_mirror_popover": {
-    "message": "Simulate the reflection of light on a mirror. (Drag or click to create.)"
+    "message": "Simuleert de reflectie van licht op een spiegel. (Sleep of klik om te maken.)"
   },
   "tool_arcmirror_popover": {
-    "message": "A mirror whose shape is part of a circle, which is defined by three points. (Drag or click to create. First 2 points define the gap between arc's edges, the last point defines the arc's size.)"
+    "message": "Een spiegel in de vorm van een cirkelboog, door drie punten vastgelegd. De eerste twee punten leggen de afstand tussen de randen vast, het laatste punt de grootte.)"
   },
   "tool_idealmirror_popover": {
-    "message": "The idealized 'curved' mirror which obeys exactly the mirror equation (1/p + 1/q = 1/f). The focal length (in pixels) can be set directly. (Drag or click to create.)"
+    "message": "Een ideale 'gebogen' spiegel die precies de spiegel formule volgt (1/p + 1/q = 1/f). De brandpuntsafstand (in pixels) kan worden ingevoerd. (Sleep of klik om te maken.)"
   },
   "tool_halfplane_popover": {
-    "message": "Simulate the the refraction and reflection of light on a surface. The intensities are calculated by assuming unpolarized. (Drag or click to create.)"
+    "message": "Simuleert de refractie en reflectie van licht op/door een oppervlak. De intensiteiten worden bereken voor ongepolarizeerd licht. (Sleep of klik om te maken.)"
   },
   "tool_circlelens_popover": {
-    "message": "Glass with circle shape, defined by its center and a point on the surface. (Drag or click to create.)"
+    "message": "Glasschijf, gedefinieerd door middelpunt en een punt op de rand. (Sleep of klik om te maken.)"
   },
   "tool_refractor_popover": {
-    "message": "Glass with any shapes constructed from line segments and circular arcs, including prisms and 'spherical' lenses. (Click to create segment, drag to create arc, click on the starting point when finish drawing.)"
+    "message": "Glas in willekeurige vorm uit lijnstukken en cirkelbogen, inclusief prismas en 'ronde' lenzen. (Klik om een lijnstuk te maken, sleep om een cirkelboog te maken, klik op startpunt om tekenen te sluiten.)"
   },
   "tool_lens_popover": {
-    "message": "An ideal lens which obeys exactly the thin lens equation (1/p + 1/q = 1/f). The focal length (in pixels) can be set directly. (Drag or click to create.)"
+    "message": "Een ideale lens die de lenzenformule volgt (1/v + 1/b = 1/f). De brandpuntafstand (in pixels) kan worden ingevoerd. (Sleep of klik om te maken.)"
   },
   "tool_blackline_popover": {
-    "message": "A line-segment light blocker which absorbs the incident rays. (Drag or click to create.)"
+    "message": "Een lichtblokkerend lijnstuk (scherm). (Sleep of klik om te maken.)"
   },
   "tool_ruler_popover": {
-    "message": "A ruler from a point for zero and another point. The scale is in pixels. (Drag or click to create.)"
+    "message": "Een lineaal van 0 tot een willekeurige afstand. Schaal is in pixels. (Sleep of klik om te maken.)"
   },
   "tool_protractor_popover": {
-    "message": "A protractor defined from center and another point for the zero direction. The scale is in degrees. (Drag or click to create.)"
+    "message": "Een gradenboog van middelpunt tot een ander punt (hoek 0). De schaal is in graden. (Sleep of klik om te maken.)"
   },
   "tool__popover": {
-    "message": "Drag to move view. (Mouse right button drag has the same function.)"
+    "message": "Sleep om beeld te verplaatsen. (Rechtermuisknop sleep heeft dezelfde functie.)"
   },
   "mode_light_popover": {
-    "message": "Show the rays. When the 'Ray density' is high, they appears to be continuous."
+    "message": "Toont de stralen. Als de 'Straaldichtheid' groot is lijkt het continu."
   },
   "mode_extended_light_popover": {
-    "message": "Show both the rays and its extension. Orange indicates backward extensions, and gray indicates forward ones."
+    "message": "Toont stralen en uitgebreide (gereflecteerde/virtuele) stralen. Oranje betekent 'backtrace', grijs betekent 'vooruit' berekend."
   },
   "mode_images_popover": {
-    "message": "Show the position of all images. Yellow points indicate real images, orange indicate virtual images, and gray (none in this picture) indicate virtual objects. Note that some images cannot be detected if 'Ray density' is not high enough."
+    "message": "Toont de positie van alle beelden. Gele punten zijn reëele beelden, oranje geeft de virtuele beelden en grijs (niet in dit plaatje) de virtuele objecten. Let op dat sommige beelden niet gedetecteerd kunnen worden als de 'Straaldichtheid' niet groot genoeg is."
   },
   "mode_observer_popover": {
-    "message": "Simulate the rays and images seen from some position. The blue circle is the observer. Any rays crossing it are considered to be 'observed'. The observer do not know where the rays actually begin, but may think they begin at some point(s) if they intersect there. The rays are shown in blue, and the point(s) in orange. (Drag the big blue dot to move the observer.)"
+    "message": "Simuleert de stralen en beelden zoals gezien vanaf een positie. De blauwe cirkel is de waarnemer (het oog). Een straal die er op komt wordt beschouwd als zichtbaar. De waarnemer ('het oog') 'weet' niet waar die stralen in werkelijkheid beginnen, maar gaat uit van een rechte lijn vanaf het punt van waarneming. De stralen zijn blauw en de 'licht'punten zijn oranje. (Sleep de blauwe stip om 'het oog' te verplaatsen.)"
   },
   "rayDensity_popover": {
-    "message": "Decides how dense should the lights be simulated."
+    "message": "Instellen van de straaldichtheid van de lichtsimulatie."
   },
   "showgrid_popover": {
-    "message": "Defines the visibility of the background grid."
+    "message": "Toont of verbergt het achtergrondraster."
   },
   "grid_popover": {
-    "message": "Defines whether to snap to grid."
+    "message": "Zet verplaatsen op raster aan of uit."
   },
   "lockobjs_popover": {
-    "message": "Defines whether the objects can be moved or not."
+    "message": "(De)Blokkeert de verplaatsing van objecten."
   },
   "zoom_popover": {
-    "message": "Zoom the view with percentage."
+    "message": "Beeld in/uitzoomen met een percentage."
   },
   "help_popover": {
-    "message": "Toggle help popup. <br><br>Some other tips: <br>Click to select object, <br>Ctrl+D to duplicate, <br>Delete key to delete, <br>Arrow keys to move slowly, <br>Double-click or right-click the dot can edit its coordinates directly. <br>When creating line objects, <br>Hold Shift to lock angle, <br>Hold Ctrl to make the first point be the center point."
+    "message": "Hulp venster aan/uit. <br><br>Andere tips: <br>Klik om een object te selecteren, <br>Ctrl+D om te kopieren, <br>Delete key om te verwijderen, <br>Pijltjes om langzaam te verplaatsen, <br>Dubbel-klik of rechts-klik op een punt om positie te wijzigen. <br>Bij maken van lijn-objecten; <br>Shift vasthouden om hoek te vergrendelen, <br>Ctrl vasthouden om het eerste punt het middelpunt te maken."
   }
 }
