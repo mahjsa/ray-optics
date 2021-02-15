@@ -4951,7 +4951,7 @@ var canvasPainter = {
 
   }
 
-  var lang = 'nl-NL';
+  var lang = 'nl';
   function getMsg(msg) {
     //if (typeof chrome != 'undefined') {
     //  return chrome.i18n.getMessage(msg);
